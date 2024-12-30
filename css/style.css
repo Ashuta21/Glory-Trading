@@ -1,0 +1,242 @@
+body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .carousel-inner {
+            height: 80vh;
+        }
+
+        .carousel-item img {
+            object-fit: cover;
+            width: 100%;
+            height: 80vh;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            width: 80%;
+            top: 50%;
+            left: 50%;
+             z-index: 2;
+            color: white;
+            text-align: center;
+        }
+
+        .section-title {
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: rgb(9, 99, 233);
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.404); /* Semi-transparent black overlay */
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        
+         
+        
+        @media (max-width: 767px) {
+            .carousel-inner {
+                height: auto;
+            }
+
+            .carousel-item img {
+                height: auto;
+            }
+
+            .carousel-caption {
+                position: absolute;
+                width: 80%;
+                  color: #fff;
+                 text-align: center;
+            }
+
+            .header-contact .d-flex {
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: left;
+            }
+
+            .header-contact span {
+                font-size: 13px;
+            }
+
+            .row {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .col-md-6 {
+                margin-bottom: 30px;
+            }
+
+            footer {
+                text-align: center;
+            }
+        }
+
+        .header-contact {
+            background-color: #030303;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .header-contact .d-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-contact i {
+            font-size: 18px;
+            color: #fefeff;
+        }
+
+        .header-contact span {
+            font-size: 14px;
+            color: #ffffff;
+        }
+strong{
+    color: rgb(9, 99, 233);
+
+}
+.stat-box {
+    border: 2px solid #ddd; /* Adding a light border around each stat box */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .stat-box:hover {
+    border-color: #007bff; /* Hover effect to change border color */
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+  }
+
+  .stat-box .fa {
+    color: #007bff; /* Set the icon color */
+  }
+
+  .stat-box h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .count {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(9, 99, 233);
+  }
+  #products i{
+    color: rgb(9, 99, 233);
+
+  }
+  #categories i{
+    color: rgb(9, 99, 233);
+
+  }
+  #active-customers i{
+    color: rgb(9, 99, 233);
+
+  }
+        .footer {
+            background-color: #01113ddc;
+            color: white;
+         }
+ 
+         .footer-links {
+            display: flex; /* Use flexbox to align the items */
+            justify-content: center; /* Center items horizontally */
+            align-items: center; /* Center items vertically */
+            padding: 0; /* Remove default padding from the <ul> */
+            list-style-type: none; /* Remove list bullets */
+            margin: 0; /* Remove default margin */
+        }
+        
+        .footer-links li {
+            margin: 0 10px; /* Add some spacing between each icon */
+        }
+        
+        .footer-links a {
+            display: flex; /* Use flexbox inside <a> to align the icon */
+            justify-content: center; /* Center the icon horizontally */
+            align-items: center; /* Center the icon vertically */
+            background-color: white; /* White background color */
+            padding: 12px; /* Padding inside the circle */
+            border-radius: 50%; /* Make the icon container circular */
+            width: 40px; /* Set width of the container */
+            height: 40px; /* Set height of the container */
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+            text-decoration: none;
+        }
+        
+        .footer-links a i {
+            font-size: 24px; /* Icon size */
+            color: #333; /* Dark color for the icon */
+        }
+        
+        /* Hover effect for icons */
+        .footer-links a:hover {
+            background-color: #3498db; /* Change background color on hover */
+            transform: scale(1.1); /* Scale up the icon slightly */
+        }
+        
+        .footer-links a:hover i {
+            color: white; /* Change icon color to white on hover */
+        }
+        
+        .card-body {
+            padding: 1.5rem;
+        }
+
+        .card {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .card-img-top {
+            object-fit: cover;
+            height: 200px;
+        }
+
+        #btt {
+            background-color:rgb(9, 99, 233);
+            border:none;
+            height: 40px;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .btn-dark:hover {
+            background-color:rgb(9, 99, 233);
+            border-color: #444;
+        }
+        #adicon{
+            margin-bottom: 15px;
+            font-size: 25px;
+            color: rgb(9, 99, 233);
+            margin-left: 15%;
+        }
+        .card-body h5{
+            color: rgb(9, 99, 233);
+font-weight: bold;
+        }
+        /* Add a border around the image */
+.ms-md-2.ms-lg-5 img {
+    border: 1px solid #3498db; /* Blue border with 5px thickness */
+    border-radius: 10px; /* Rounded corners */
+}
+.ms-md-2.ms-lg-5 h3{
+    color: rgb(9, 99, 233);
+}
+.lead{
+    color: black;
+}
